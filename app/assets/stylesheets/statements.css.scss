@@ -1,0 +1,29 @@
+.letterhead { 
+  width: 100%;
+  border: 1px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  background-color: #FFFEF8;
+  margin: 15px auto 15px auto;
+  padding: 20px 30px 0px 40px;
+  box-shadow: 1px 1px 5px #D0D0D0; }
+
+.comments { 
+  width: 100%;
+  border: 1px;
+  border-style: dotted;
+  border-color: #d9d9d9;
+  background-color: #fff;
+  margin: 15px auto 15px auto;
+  padding: 20px 30px 0px 40px; }
+
+#mast {
+  position: relative;
+  top: 3px;
+  left: 3px;
+  height: 5px;
+  width: 100%;
+  background-color: #360000;
+  padding: 0 0 0 0;
+  margin: auto;
+  }
