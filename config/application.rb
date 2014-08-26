@@ -10,6 +10,8 @@ require "sprockets/railtie"
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+ENV.update YAML.load(File.read(File.expand_path('../facebook.yml', __FILE__)))
+
 
 module Lgr
   class Application < Rails::Application

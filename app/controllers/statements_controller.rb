@@ -4,4 +4,6 @@ class StatementsController < ApplicationController
 
   def mwatib
   end
+
+  
 end
